@@ -11,7 +11,6 @@ namespace EmployeePayrollUsingThreadsDemo
         {
             Console.WriteLine("Employee Payroll using Threads");
             string[] words = CreateWordArray(@"http://www.gutenberg.org/files/54700/54700-0.txt");
-
             #region ParallelTasks
             Parallel.Invoke(() =>
             {
