@@ -42,7 +42,7 @@ namespace UnitTestProject1
             DateTime startDateTimeThread = DateTime.Now;
             employeePayrollOperations.addEmployeeToPayrollWithThread(employeeDetails);
             DateTime stopDateTimeThread = DateTime.Now;
-            Console.WriteLine("Duration with thread: " + (stopDateTimeThread - startDateTimeThread));
+            Console.WriteLine("Duration with thread:  " + (stopDateTimeThread - startDateTimeThread));
         }
     }
 }
